@@ -1,0 +1,29 @@
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# Django specific
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# Environment and log files
+.env
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
